@@ -51,7 +51,7 @@ const hECMAthlon = {
   //old
   /* fizzBuzz: function (input) {
     const output = [];
-    for (let k = 0; k < parseInt(input); k++) {
+    for (let k = 1; k <= parseInt(input); k++) {
       let value;
       if (k % 5 === 0 && k % 3 === 0) value = "FizzBuzz";
       else if (k % 3 === 0) value = "Fizz";
